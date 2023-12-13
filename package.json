@@ -1,5 +1,5 @@
 {
-  "name": "bun-template",
+  "name": "@iolave/bun-template",
   "version": "v0.0.0-beta.1",
   "module": "src/main.ts",
   "main": "main.ts",
@@ -15,3 +15,4 @@
     "lint": "tsc --noEmit"
   }
 }
+
