@@ -1,0 +1,16 @@
+{
+  "name": "bun-template",
+  "version": "v0.0.0-beta.1",
+  "module": "src/main.ts",
+  "main": "main.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run ./src/main.ts"
+  }
+}
