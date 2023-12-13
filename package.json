@@ -11,6 +11,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "start": "bun run ./src/main.ts"
+    "start": "bun lint && bun run ./src/main.ts",
+    "lint": "tsc --noEmit"
   }
 }
