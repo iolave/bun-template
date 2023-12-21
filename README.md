@@ -3,7 +3,8 @@
 <p align="middle"><img src="https://bun.sh/logo-square.png" width="15%"/></p>
 
 ## Features
-- Simple project structure.
+- Simple project structure and already configured common paths.
+- Includes an instance of [SaF logger](https://github.com/iolave/bun-saf-logger).
 - Already configured `bunfile.toml:[test]` section with coverage enabled.
 - Strict `tsconfig.json` config.
 - Some typescript config for vscode users that matches our `tsconfig.json`.

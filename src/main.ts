@@ -1,3 +1,4 @@
 import uselessFunc from "./functions/useless-one";
+import log from "@config/saf-logger";
 
-console.log(uselessFunc(150));
+log.info({ result: uselessFunc(150) });
